@@ -1,20 +1,18 @@
 <template>
-    <div>
-        <footer class="common-foot">
-            <ul>
-                <li v-for="(item,index) in navArr"
-                    :key="index"
-                    @click="toggle(item.name)"
-                    :class="{active: pathName == item.name}">
-                    <span>{{item.desc}}</span>
-                </li>
-            </ul>
-        </footer>
-    </div>
+    <section class="common-foot">
+        <ul>
+            <li v-for="(item,index) in navArr"
+                :key="index"
+                @click="toggle(item.name)"
+                :class="{active: pathName == item.name}">
+                <span>{{item.desc}}</span>
+            </li>
+        </ul>
+    </section>
 </template>
 <script>
     export default {
-        name: 'header',
+        name: 'commonfooter',
         props: {},
         data() {
             return {

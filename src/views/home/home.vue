@@ -1,17 +1,17 @@
 <template>
     <div style="height: 100%">
-        <Header :titleName="'PDF-本地'"></Header>
+        <commonHeader :titleName="'PDF-本地'"></commonHeader>
         <router-view></router-view>
-        <Footer></Footer>
+        <commonFooter></commonFooter>
     </div>   
 </template>
 <script>
-    import Header from '../common/header.vue'
-    import Footer from '../common/footer.vue'
+    import commonHeader from '../common/commonHeader.vue'
+    import commonFooter from '../common/footer.vue'
     export default {
         components: {
-            Header,
-            Footer
+            commonHeader,
+            commonFooter
         },
         data(){
             return {}

@@ -1,15 +1,13 @@
 <template>
-    <div>
-        <header class="common-head">
-            <div class="common-head-left" @click="goBack">返回</div>
-            <div class="common-head-title">{{titleName}}</div>
-            <div class="common-head-right"></div>
-        </header>
-    </div>
+    <section class="common-head">
+        <div class="common-head-left" @click="goBack">返回</div>
+        <div class="common-head-title">{{titleName}}</div>
+        <div class="common-head-right"></div>
+    </section>
 </template>
 <script>
     export default {
-        name: 'header',
+        name: 'commonheader',
         props: {
             titleName: {
                 type: String,
