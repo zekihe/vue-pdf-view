@@ -1,5 +1,5 @@
 <template>
-    <div style="height: 100%">
+    <div>
         <commonHeader :titleName="'PDF-本地'"></commonHeader>
         <router-view></router-view>
         <commonFooter></commonFooter>
