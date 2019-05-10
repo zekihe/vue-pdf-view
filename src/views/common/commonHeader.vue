@@ -1,6 +1,6 @@
 <template>
     <section class="common-head">
-        <div class="common-head-left" @click="goBack">返回</div>
+        <div class="common-head-left" @click="goBack">Back</div>
         <div class="common-head-title">{{titleName}}</div>
         <div class="common-head-right"></div>
     </section>
